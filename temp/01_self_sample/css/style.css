@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+/* サンプル企業 1 */
+
+
+/* 共通部分_Start------------------------------- */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.9;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+    border-top:10px solid #73e5ff !important;
+}
+
+h1 {
+    font-size: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    font-style:italic;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+}
+
+/* 共通部分_End------------------------------- */
+
+
+
+/* header_Start------------------------------- */
+header {
+    color: black;
+    border-bottom: 1px dashed black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#icon {
+    text-align:center;
+    margin-top:20px;
+    width:50px;
+    height:50px;
+}
+
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .main-nav li {
+        width:200px;
+        margin: 30px 0 10px 0;
+        text-align: center;
+        border-right: 1px solid #ddd;
+    }
+
+        .main-nav li:first-child {
+            border-left: 1px solid #ddd;
+        }
+
+        .main-nav li a {
+            font-size:24px;
+            display:block;
+        }
+
+/* header_End------------------------------- */
+/* footer_Start------------------------------- */
+footer {
+    margin-top: 50px;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* footer_End------------------------------- */
+
+/* body_Start------------------------------- */
+.main {
+    text-align : center;
+    margin: 0 15% 0 15%;
+}
+
+.sec01_mainImg {
+    margin : 10px 0 10px 0;
+}
+    .sec01_mainImg img {
+        height: auto;
+        width: 100%;
+    }
+
+    .sec01_mainImg .main_massage {
+        font-size:50px;
+        font-weight:bold;
+        position:relative;
+        top : 200px;
+    }
+
+.sec02_aboutMe {
+    text-align: left;
+    padding: 50px 0 300px 0;
+    border-bottom: 1px dashed black;
+}
+
+    .sec02_aboutMe .aboutMeImg001 {
+        margin-left: 30px;
+        height: 300px;
+        width: auto;
+        position: relative;
+        top: 50px;
+    }
+
+    .sec02_aboutMe .aboutMeImg002 {
+        height: 300px;
+        width: auto;
+        position: relative;
+        top: 250px;
+        right: 30px;
+    }
+
+    .sec02_aboutMe .aboutMeImg003 {
+        height: 450px;
+        width: auto;
+        position: absolute;
+        left: 1400px;
+        top: 1400px;
+    }
+
+.sec03_service {
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+}
+    .sec03_service .sec03_box1 {
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom:70px;
+    }
+
+        .sec03_service .sec03_box1 .sec03_textbox {
+            text-align: left;
+            width:60%;
+            
+        }
+        .sec03_service .sec03_box1 .sec003_img {
+            width: 40%;
+        }
+            .sec03_service .sec03_box1 .sec003_img img {
+                text-align: center;
+                height: 70%;
+                width: 100%;
+            }
+
+
+.sec04_workFlow {
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+}
+
+    .sec04_workFlow .sec04_setpBox_left {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: black;
+        background: #fafad2;
+        border-bottom: solid 6px #f5deb3;
+        border-radius: 9px;
+        text-align: left;
+        margin: 10px 40% 10px 0;
+    }
+
+    .sec04_workFlow .sec04_setpBox_right {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: black;
+        background: #fafad2;
+        border-bottom: solid 6px #f5deb3;
+        border-radius: 9px;
+        text-align: left;
+        margin: 10px 0 10px 40%;
+    }
+
+span {
+    font-size: 26px;
+    font-weight:bold;
+}
+
+dd {
+    font-size: 18px;
+}
+
+.sec04_box_last {
+    margin-bottom:30px;
+}
+
+    .sec04_box_last h3 {
+        font-size: 40px;
+    }
+
+.sec05_address {
+    margin-top:30px;
+    padding-bottom:30px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+    .sec05_address .sec05_left_contents {
+        width: 75%;
+        display:block;
+    }
+
+        .sec05_address .sec05_left_contents h3 {
+            text-align:left;
+            font-size: 24px;
+        }
+
+        .sec05_address .sec05_left_contents dl {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+        }
+        .sec05_address .sec05_left_contents dt {
+            flex-basis: 30%;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-bottom: 1px solid #ccc;
+        }
+        .sec05_address .sec05_left_contents dd {
+            flex-basis: 50%;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+
+    .sec05_address .sec05_right_contents {
+        width:20%;
+        display:block;
+    }
+
+.sec06_addressMap {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+/* ################## 760px start ##################*/
+@media only screen and (min-width: 760px) {
+}
+
+/* ################## 961px start ##################*/
+@media only screen and (min-width: 961px) {
+}
+
+
+
+/* body_End------------------------------- */
+
